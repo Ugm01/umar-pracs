@@ -1,0 +1,45 @@
+form{
+    background-color: rgb(248, 234, 206);
+    width: 50rem;
+    margin: .5rem auto;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    
+}
+
+label{
+    display: block;
+}
+input{
+   
+    margin: .5rem 0;
+    width: 30rem;
+    border-radius: 2px;
+    
+}
+input:focus{
+    background-color: rgb(245, 234, 214);
+}
+button{
+    display: block;
+    padding: 0.2rem 1rem ;
+    border-radius: 6px;
+    background-color: rgb(110, 73, 5)
+    
+}
+span{
+    display: inline;
+}
+#remaining-chars.warning{
+    color: rgb(230, 117, 117);
+}
+#remaining-chars.error{
+    color: red;
+}
+#product-name.warning{
+    color: rgb(221, 111, 111);
+}
+#product-name.error{
+    color: red;
+}

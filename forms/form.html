@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Demo Form</h1>
+    <form action="" method="GET">
+        <h2>Your Personal Details</h2>
+        <section >
+        <ul>
+            <li>
+                <label for="username">your name</label>
+                <input type="name" id="username" name="user-name" class="input">
+            </li>
+            <li>
+                <label for="email"> Email</label>
+                <input type="email"  id="email" name="user-email" class="input">
+            </li>
+            <li>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user-password" class="input">
+            </li>
+        </ul>
+        </section>
+        <section>
+        <h2>More Details</h2>
+        <ul>
+            <li>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="user-age" class="input">
+        
+            </li>
+            <li>
+                <label for="birthdate"></label>
+                <input type="date" id="birthdate" name="user-birthdate">
+
+            </li>
+            <li>
+                <label for="message">Your message</label>
+<textarea name=" user-message" id="message" cols="" rows="6"> </textarea>
+            </li>
+
+        </ul>
+        </section>
+<section>
+    <label for="favcolor">favorite color</label>
+    <select name="favorite-color" id="favcolor">
+    <option value="black">Black</option>
+    <option value="blue">Blue</option>
+    <option value="red">Red</option>
+
+</section>
+
+
+    <h2>How Should We Verify You</h2>
+   
+    
+       
+        <section class="flex">
+        
+            <input type="checkbox" id="agreed-terms"  name="terms" class="agree-terms">
+        <label for="agreed-terms"  class="agree-terms"> Agree to terms</label>
+        
+  
+</section>
+<section>
+    <ul >
+        <li class="flex">
+            <input type="radio" id="textmessage" name="verify" value="text-message" class="input">
+                <label for="verify-phonecall"> Text message</label>
+            </li>
+   <li class="flex">
+<input type="radio" id="verify-phonecall" name="verify" value="phone-call">
+    <label for="verify-phonecall"> Phone call</label>
+</li>
+  <li class="flex">
+       <input type="radio" id="verify-email" name="verify" value="email">
+    <label for="verify-email"> An email</label>
+    </li>
+</ul>
+
+</section>
+       
+    </form>
+</body>
+</html>

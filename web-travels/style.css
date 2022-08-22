@@ -1,0 +1,106 @@
+
+#hero{
+    height: 50rem;
+    background-image: url(images/background.jpeg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#hero-content{
+    width: 50rem;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 12.5rem;
+
+}
+
+#hero-content h1{
+color: antiquewhite;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+font-size: 3rem;
+}
+
+#hero-content p{
+color: antiquewhite;
+text-transform: uppercase;
+margin-top: 1.65rem;
+font-size: 1.8rem;
+font-weight: 300;
+}
+
+#hero-content a{
+    color: black;
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 0.6 1.7rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+#hero-content a:hover{
+    background-color: rgb(154, 218, 28);
+}
+.destination img{
+    height: 12.5rem;
+    width: 21.8rem;
+    box-shadow: 2px 4px 8px rgb(34, 32, 32);
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.5s ease-out 0.s;
+    
+}
+.destination img:hover{
+    transform: scale(1.1);
+    transform: rotate(deg);
+}
+.destination{
+    margin: 0 1.4rem;
+}
+.destination{
+    text-align: center;
+}
+
+
+#destinations{
+    justify-content: center;
+    display: flex;
+     width: 90%;
+     margin: auto;
+     margin-bottom: 2.6rem;
+     }
+
+#highlights{
+    padding: 24px;
+    background: linear-gradient(75deg, rgb(47, 221, 212), rgb(160, 235, 230))
+}
+
+#highlights{
+    text-align: center;
+}
+strong{
+    color: green;
+}
+
+@media( max-width: 48rem){
+    header nav{
+        display: none;}
+        #hero-content{
+            width: 25rem;
+        }
+    #destinations{
+        display: block;
+    }
+    #page-logo a{
+        font-size: 2rem;
+    }
+}

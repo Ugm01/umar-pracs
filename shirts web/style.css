@@ -1,0 +1,186 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(36, 28, 28);
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    background-color: rgb(20, 20, 20);
+    
+    
+
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    list-style: none;
+    padding: 1.5rem;
+}
+
+#logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgb(124, 119, 119);
+
+}
+
+
+header a{
+    text-decoration: none;
+    color: rgb(221, 146, 6);
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+header li a:hover{
+    background-color: rgb(109, 71, 0);
+}
+
+.menu-btn{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    display: none;
+
+}
+.menu-btn span{
+height: 3px;
+width: 100%;
+background-color: white;
+}
+
+#side-drawer{
+    width: 100%;
+height: 100%;
+background-color: rgb(36, 31, 31);
+position: fixed;
+top: 0;
+bottom: 0;
+display: none;
+    
+}
+#side-drawer:target{
+    display: block;
+}
+#side-drawer header{
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5%;
+    
+}
+
+#side-drawer ul{
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#side-drawer a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+#side-drawer li{
+    margin: 1rem;
+}
+
+#main-items{ 
+    margin: 3.2rem auto;
+    width: 80%;
+   
+   
+   
+    
+}
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(221, 146, 6);
+}
+
+.shirts img{
+    height: 20.75rem;
+    width: 100%;
+    object-fit:cover;
+   
+    
+}
+
+#polo{
+
+margin: 0;
+   padding: 0; 
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;
+ 
+ 
+    
+}
+
+.shirts {
+ list-style: none;
+ background-color: rgb(187, 161, 161);
+ border-radius: 6px;
+ overflow: hidden;
+ 
+ 
+ 
+
+}
+
+.carts{
+    padding: 1.7rem;
+    text-align: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgb(221, 146, 6);
+  padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    color: rgb(215, 243, 250);
+    
+}
+.btn:hover{
+    background-color: rgb(145, 95, 3);
+}
+
+@media(max-width:768px){
+    .menu-btn{
+        display: flex;
+    }
+    header nav{
+        display: none;
+    }
+    #main-items h1{
+        font-size: 1rem;
+    }
+   #polo{
+    grid-template-columns: 1fr;
+   } 
+
+   
+
+
+
+   
+
+
