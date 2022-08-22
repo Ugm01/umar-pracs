@@ -1,0 +1,52 @@
+main h1{
+    color: rgb(179, 126, 35);
+    text-align: center;
+}
+form{
+    background-color: rgb(207, 151, 54);
+    width: 48rem;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin: 0.2rem auto;
+    color: rgb(14, 11, 6);
+}
+input{
+    display: block;
+    width: 98%;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+     
+
+}
+textarea{
+    width: 100%;
+    resize: none;
+}
+input:focus, textarea:focus{
+    background-color: rgb(241, 218, 173);
+    border-color: transparent;
+    
+}
+form button{
+    padding: 0.5rem 1rem;
+    background-color:rgb(78, 24, 5);
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+    color: white;
+}
+ form button:hover{
+    color: orange;
+}
+
+@media(max-width:48rem)  {
+    form{
+       width:22rem;
+    }
+    
+}

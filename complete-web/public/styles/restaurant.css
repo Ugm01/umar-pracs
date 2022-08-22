@@ -1,0 +1,37 @@
+main h1{
+    text-align: center;
+    color: rgb(12, 10, 6);
+}
+.para{
+    text-align: center;
+    color: rgb(12, 10, 6);
+}
+
+    
+
+
+.restaurant-item{
+    background-color: rgb(221, 197, 152);
+    margin: 1rem auto;
+    width: 40rem;
+   list-style: none;
+   padding: 1rem;
+   border-radius: 4px;
+   box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.restaurant-actions a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    border-radius: 4px;
+}
+.restaurant-actions a:hover{
+    color: rgb(22, 17, 7);
+}
+@media(max-width:48rem){
+    .restaurant-item{
+        width: 22rem;
+        box-sizing: border-box;
+    }
+}

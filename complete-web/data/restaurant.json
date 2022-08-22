@@ -1,0 +1,66 @@
+[
+  {
+     
+    "name": "Al-baik",
+    "address": "zooroad",
+    "cuisine": "arabian",
+    "website": "http://albaikres.com",
+    "description": "delicious"
+  },
+  {
+     
+    "name": "gusto",
+    "address": "lodge road, kano",
+    "cuisine": "engilish cuisine",
+    "website": "https://gusto.com",
+    "description": "engagrd"
+  },
+  {
+   
+    "name": "danbare",
+    "address": "gwarzo road",
+    "cuisine": "nigerian",
+    "website": "https://danbare.com",
+    "description": "yummy"
+  },
+  {
+     
+    "name": "fabtrix res",
+    "address": "bakar lamba",
+    "cuisine": "yoroba",
+    "website": "http://fabtrix.com",
+    "description": "deli"
+  },
+  {
+    "id": "r5",
+    "name": "212 res",
+    "address": "zooroad",
+    "cuisine": "engilish cuisine",
+    "website": "http://212res.com",
+    "description": "yummy"
+  },
+  {
+  
+    "name": "shaaban",
+    "address": "zooroad",
+    "cuisine": "hausa",
+    "website": "http://shaaban.com",
+    "description": "deli"
+  },
+  {
+    
+    "name": "gusto",
+    "address": "lodge road, kano",
+    "cuisine": "engilish cuisine",
+    "website": "https://gusto.com",
+    "description": "deli"
+  },
+  {
+    "name": "naibawa",
+    "address": "naibawa kano",
+    "cuisine": "nigeria",
+    "website": "https://naibawa.com",
+    "description": " its deli",
+    "id": "69f023e7-ff42-41ff-a660-6ddd92e3a15f"
+  }
+]

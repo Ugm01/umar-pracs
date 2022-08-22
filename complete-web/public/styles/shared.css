@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(250, 247, 233);
+}
+#logo a{
+text-decoration: none;
+font-weight: bold;
+font-size: large;
+padding: 1rem ;
+color: white;
+background-color: orange;
+border-radius:150px 70px ;
+margin: 0 2rem;
+}
+#main-header{
+padding: 1rem ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#main-header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10rem;
+    
+}
+#main-header li{
+    margin: 0 1.5rem;
+   
+}
+.nav-item  a{
+text-decoration: none;
+color: rgb(65, 51, 26);
+}
+.nav-item  a:hover{
+    color: orange;
+}
+#drawer-btn{
+    width: 3rem;
+    height: 3rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ display: none;
+ background-color: transparent;
+ cursor: pointer;
+border: none;
+
+}
+#drawer-btn span{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(32, 25, 4);
+   
+}
+#mobile-drawer{
+    
+    display: none;
+}
+#mobile-drawer.open{
+    display: block;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:   rgb(12, 10, 6);
+}
+#mobile-drawer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem 0;
+    padding: 0;
+
+}
+#mobile-drawer a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+#mobile-drawer a:hover{
+    color: orange;
+}
+#mobile-drawer li{
+    margin: 1rem ;
+}
+
+@media(max-width:48rem)  {
+    #drawer-btn{
+        display: flex;
+    }
+    header .nav-item{
+        display: none;
+    }
+}

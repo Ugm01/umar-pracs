@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <%- include('includes/head')%>
+    <link rel="stylesheet" href="/Styles/restaurant.css">
+    <script src=" /scripts/responsive.js" defer></script>
+  </head>
+  
+  <body>
+    <%- include('includes/header')%>
+    <%- include('includes/side-drawer')%>
+
+    
+    <main>
+      <h1>Recommended restaurants</h1>
+      <% if(numberOfRestaurants ===0){%>
+<p class="para">unfortunately, we have no restaurants yet - may be start recommending some</p>
+     <% } else{%>
+      <p class="para">find your next favorite restaurant with help of our other users</p>
+      <p class="para">We found <%= numberOfRestaurants %> restaurants</p>
+      <ul id="restaurant-list">
+        <!outputting repeated contents>
+        <% for (restaurant of restaurants) { %>
+        <li class="restaurant-item">
+          <article>
+            <h2><%= restaurant.name %></h2>
+            <div class="restaurant-meta">
+              <p><%= restaurant.cuisine %></p>
+              <p><%= restaurant.address %></p>
+            </div>
+            <p>
+              <%= restaurant.description %>
+            </p>
+            <div class="restaurant-actions">
+              <a href="/restaurant/<%= restaurant.id %>"> View Restaurant</a>
+            </div>
+          </article>
+        </li>
+        <%} %>
+      </ul>
+<%} %>
+   
+     
+    </main>
+  </body>
+</html>
